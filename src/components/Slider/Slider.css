@@ -1,0 +1,81 @@
+.slider {
+    position: relative;
+    z-index: 1;
+}
+.slider h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+.notification {
+    font-size: 2em;
+}
+
+.notification.success {
+    -webkit-animation: success 1s forwards;
+    -moz-animation: success 1s forwards;
+    -o-animation: success 1s forwards;
+    -ms-animation: success 1s forwards;
+    animation: success 1s forwards;
+}
+
+.notification.error {
+    -webkit-animation: error 1s forwards;
+    -moz-animation: error 1s forwards;
+    -o-animation: error 1s forwards;
+    -ms-animation: error 1s forwards;
+    animation: error 1s forwards;
+}
+
+@-webkit-keyframes success {
+    0% { color: white; }
+    50% { color: green; }
+    100% { color: white; }
+}
+@-moz-keyframes success {
+    0% { color: white; }
+    50% { color: green; }
+    100% { color: white; }
+}
+@-ms-keyframes success {
+    0% { color: white; }
+    50% { color: green; }
+    100% { color: white; }
+}
+@-o-keyframes success {
+    0% { color: white; }
+    50% { color: green; }
+    100% { color: white; }
+}
+@keyframes success {
+    0% { color: white; }
+    50% { color: green; }
+    100% { color: white; }
+}
+
+@-webkit-keyframes error {
+    0% { color: white; }
+    50% { color: red; }
+    100% { color: white; }
+}
+@-moz-keyframes error {
+    0% { color: white; }
+    50% { color: red; }
+    100% { color: white; }
+}
+@-ms-keyframes error {
+    0% { color: white; }
+    50% { color: red; }
+    100% { color: white; }
+}
+@-o-keyframes error {
+    0% { color: white; }
+    50% { color: red; }
+    100% { color: white; }
+}
+@keyframes error {
+    0% { color: white; }
+    50% { color: red; }
+    100% { color: white; }
+}
+
