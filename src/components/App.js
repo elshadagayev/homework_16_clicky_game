@@ -13,8 +13,8 @@ class App extends Component {
         <Router>
           <div>
             <MainMenu />
-            <Route path="/" component={HomePage} />
-            <Route path="/scores" component={ScoreHistory} />
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/scores" component={ScoreHistory} />
           </div>
         </Router>
         {/*</ConnectedRouter>*/}
